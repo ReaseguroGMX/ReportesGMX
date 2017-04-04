@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GMX_D1">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=CLUSTERSQL\SIIGMX;Initial Catalog=PRODUCCION</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>6d8fa2b8-b472-49ad-bd77-4a5b1f265d48</DataSourceID>
+</RptDataSource>
