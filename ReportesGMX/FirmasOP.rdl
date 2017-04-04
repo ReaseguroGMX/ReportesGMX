@@ -275,6 +275,66 @@
                   </Border>
                 </Style>
               </Line>
+              <Image Name="solicitante">
+                <Source>Embedded</Source>
+                <Value />
+                <Sizing>FitProportional</Sizing>
+                <Top>0.19907cm</Top>
+                <Left>1.37373cm</Left>
+                <Height>1.5cm</Height>
+                <Width>4.22276cm</Width>
+                <ZIndex>9</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                </Style>
+              </Image>
+              <Image Name="solicitante2">
+                <Source>Embedded</Source>
+                <Value />
+                <Sizing>FitProportional</Sizing>
+                <Top>0.26962cm</Top>
+                <Left>13.14766cm</Left>
+                <Height>1.5cm</Height>
+                <Width>4.22276cm</Width>
+                <ZIndex>10</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                </Style>
+              </Image>
+              <Image Name="solicitante3">
+                <Source>Embedded</Source>
+                <Value />
+                <Sizing>FitProportional</Sizing>
+                <Top>2.53121cm</Top>
+                <Left>1.37373cm</Left>
+                <Height>1.5cm</Height>
+                <Width>4.22276cm</Width>
+                <ZIndex>11</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                </Style>
+              </Image>
+              <Image Name="solicitante4">
+                <Source>Embedded</Source>
+                <Value />
+                <Sizing>FitProportional</Sizing>
+                <Top>2.53121cm</Top>
+                <Left>13.11442cm</Left>
+                <Height>1.5cm</Height>
+                <Width>4.22276cm</Width>
+                <ZIndex>12</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                </Style>
+              </Image>
             </ReportItems>
             <KeepTogether>true</KeepTogether>
             <Height>4.8076cm</Height>
