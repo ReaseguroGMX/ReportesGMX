@@ -1467,8 +1467,8 @@
             </ReportItems>
             <KeepTogether>true</KeepTogether>
             <Top>0.10583cm</Top>
-            <Left>0.02994cm</Left>
-            <Height>8.31397cm</Height>
+            <Left>0.03324cm</Left>
+            <Height>8.18777cm</Height>
             <Width>18.84281cm</Width>
             <Style>
               <Border>
@@ -1480,7 +1480,7 @@
           <Rectangle Name="Rectangle3">
             <ReportItems>
               <Line Name="Line2">
-                <Top>0.7032cm</Top>
+                <Top>0.59179cm</Top>
                 <Height>0cm</Height>
                 <Width>18.83951cm</Width>
                 <Style>
@@ -1511,9 +1511,9 @@
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>Textbox22</rd:DefaultName>
-                <Top>0.11466cm</Top>
+                <Top>0.0738cm</Top>
                 <Height>0.48271cm</Height>
-                <Width>18.83951cm</Width>
+                <Width>18.84611cm</Width>
                 <ZIndex>1</ZIndex>
                 <Style>
                   <Border>
@@ -1543,9 +1543,10 @@
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>Texto</rd:DefaultName>
-                <Top>0.80903cm</Top>
-                <Height>2.53056cm</Height>
-                <Width>18.83951cm</Width>
+                <Top>0.62706cm</Top>
+                <Left>0.0066cm</Left>
+                <Height>2.81575cm</Height>
+                <Width>18.8cm</Width>
                 <ZIndex>2</ZIndex>
                 <Style>
                   <Border>
@@ -1559,10 +1560,10 @@
               </Textbox>
             </ReportItems>
             <KeepTogether>true</KeepTogether>
-            <Top>8.59619cm</Top>
-            <Left>0.03324cm</Left>
-            <Height>3.33959cm</Height>
-            <Width>18.83951cm</Width>
+            <Top>8.39619cm</Top>
+            <Left>0.03654cm</Left>
+            <Height>3.50762cm</Height>
+            <Width>18.84611cm</Width>
             <ZIndex>1</ZIndex>
             <Style>
               <Border>
@@ -1578,8 +1579,8 @@
                 <Value>=Parameters!nro_op.Value</Value>
               </Parameter>
             </Parameters>
-            <Top>14.1145cm</Top>
-            <Left>0.03324cm</Left>
+            <Top>13.31856cm</Top>
+            <Left>0.03654cm</Left>
             <Height>0.27104cm</Height>
             <Width>18.83951cm</Width>
             <ZIndex>2</ZIndex>
@@ -1614,8 +1615,8 @@
                 </Paragraphs>
                 <rd:DefaultName>Textbox4</rd:DefaultName>
                 <Top>0.06873cm</Top>
-                <Left>13.39894cm</Left>
-                <Height>0.57354cm</Height>
+                <Left>13.40554cm</Left>
+                <Height>0.45cm</Height>
                 <Width>1.67005cm</Width>
                 <Style>
                   <Border>
@@ -1650,8 +1651,8 @@
                 </Paragraphs>
                 <rd:DefaultName>SucEmision</rd:DefaultName>
                 <Top>0.06873cm</Top>
-                <Left>15.06899cm</Left>
-                <Height>0.57354cm</Height>
+                <Left>15.07559cm</Left>
+                <Height>0.45cm</Height>
                 <Width>3.77052cm</Width>
                 <ZIndex>1</ZIndex>
                 <Style>
@@ -1666,10 +1667,10 @@
               </Textbox>
             </ReportItems>
             <KeepTogether>true</KeepTogether>
-            <Top>14.45433cm</Top>
-            <Left>0.03324cm</Left>
-            <Height>0.7481cm</Height>
-            <Width>18.83951cm</Width>
+            <Top>13.5896cm</Top>
+            <Left>0.03654cm</Left>
+            <Height>0.51873cm</Height>
+            <Width>18.84611cm</Width>
             <ZIndex>3</ZIndex>
             <Visibility>
               <Hidden>= iif(Len(Fields!fec_baja.Value) = 0,false,true)</Hidden>
@@ -1683,90 +1684,6 @@
           </Rectangle>
           <Rectangle Name="Rectangle4">
             <ReportItems>
-              <Line Name="Line7">
-                <Top>0.7032cm</Top>
-                <Left>0.03324cm</Left>
-                <Height>0cm</Height>
-                <Width>18.80957cm</Width>
-                <Style>
-                  <Border>
-                    <Style>Solid</Style>
-                    <Width>0.5pt</Width>
-                  </Border>
-                </Style>
-              </Line>
-              <Textbox Name="Textbox36">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>DETALLE DE FACTURA</Value>
-                        <Style>
-                          <FontFamily>Arial</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style>
-                      <TextAlign>Center</TextAlign>
-                    </Style>
-                  </Paragraph>
-                </Paragraphs>
-                <rd:DefaultName>Textbox22</rd:DefaultName>
-                <Top>0.11466cm</Top>
-                <Left>0.06318cm</Left>
-                <Height>0.48271cm</Height>
-                <Width>18.77963cm</Width>
-                <ZIndex>1</ZIndex>
-                <Style>
-                  <Border>
-                    <Style>None</Style>
-                  </Border>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
-              <Textbox Name="Textbox37">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>TIPO DOCUMENTO</Value>
-                        <Style>
-                          <FontFamily>Arial</FontFamily>
-                          <FontSize>9pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style>
-                      <TextAlign>Center</TextAlign>
-                    </Style>
-                  </Paragraph>
-                </Paragraphs>
-                <rd:DefaultName>Textbox22</rd:DefaultName>
-                <Top>0.87959cm</Top>
-                <Left>0.49066cm</Left>
-                <Height>0.48271cm</Height>
-                <Width>3.20507cm</Width>
-                <ZIndex>2</ZIndex>
-                <Style>
-                  <Border>
-                    <Style>None</Style>
-                  </Border>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
               <Textbox Name="Textbox38">
                 <CanGrow>true</CanGrow>
                 <KeepTogether>true</KeepTogether>
@@ -1788,11 +1705,10 @@
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>Textbox22</rd:DefaultName>
-                <Top>0.87959cm</Top>
-                <Left>5.41121cm</Left>
+                <Top>0.57352cm</Top>
+                <Left>7.37231cm</Left>
                 <Height>0.48271cm</Height>
                 <Width>3.62425cm</Width>
-                <ZIndex>3</ZIndex>
                 <Style>
                   <Border>
                     <Style>None</Style>
@@ -1824,10 +1740,94 @@
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>Textbox22</rd:DefaultName>
-                <Top>0.87959cm</Top>
-                <Left>11.00848cm</Left>
+                <Top>0.56769cm</Top>
+                <Left>13.40884cm</Left>
                 <Height>0.48271cm</Height>
                 <Width>3.60895cm</Width>
+                <ZIndex>1</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+              <Textbox Name="Textbox36">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>DETALLE DE FACTURA</Value>
+                        <Style>
+                          <FontFamily>Arial</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Center</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox22</rd:DefaultName>
+                <Top>0.02025cm</Top>
+                <Height>0.48271cm</Height>
+                <Width>18.8099cm</Width>
+                <ZIndex>2</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+              <Line Name="Line7">
+                <Top>0.53241cm</Top>
+                <Left>0.0099cm</Left>
+                <Height>0cm</Height>
+                <Width>18.83291cm</Width>
+                <ZIndex>3</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>Solid</Style>
+                    <Width>0.5pt</Width>
+                  </Border>
+                </Style>
+              </Line>
+              <Textbox Name="Textbox37">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>TIPO DOCUMENTO</Value>
+                        <Style>
+                          <FontFamily>Arial</FontFamily>
+                          <FontSize>9pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Center</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox22</rd:DefaultName>
+                <Top>0.56769cm</Top>
+                <Left>0.48736cm</Left>
+                <Height>0.48271cm</Height>
+                <Width>3.20507cm</Width>
                 <ZIndex>4</ZIndex>
                 <Style>
                   <Border>
@@ -1841,10 +1841,10 @@
               </Textbox>
             </ReportItems>
             <KeepTogether>true</KeepTogether>
-            <Top>12.10664cm</Top>
-            <Left>0.02994cm</Left>
-            <Height>1.83147cm</Height>
-            <Width>18.84281cm</Width>
+            <Top>12.01539cm</Top>
+            <Left>0.03324cm</Left>
+            <Height>1.19734cm</Height>
+            <Width>18.84941cm</Width>
             <ZIndex>4</ZIndex>
             <Style>
               <Border>
@@ -1853,6 +1853,24 @@
               </Border>
             </Style>
           </Rectangle>
+          <Subreport Name="FirmasOP">
+            <ReportName>FirmasOP</ReportName>
+            <Parameters>
+              <Parameter Name="nro_orden">
+                <Value>=Parameters!nro_op.Value</Value>
+              </Parameter>
+            </Parameters>
+            <Top>17.43987cm</Top>
+            <Left>0.03654cm</Left>
+            <Height>0.2975cm</Height>
+            <Width>18.84281cm</Width>
+            <ZIndex>5</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+          </Subreport>
           <Textbox Name="Texto2">
             <CanGrow>true</CanGrow>
             <KeepTogether>true</KeepTogether>
@@ -1874,11 +1892,11 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Texto</rd:DefaultName>
-            <Top>15.23771cm</Top>
+            <Top>14.24944cm</Top>
             <Left>0.03324cm</Left>
-            <Height>2.92805cm</Height>
-            <Width>18.83951cm</Width>
-            <ZIndex>5</ZIndex>
+            <Height>3.04932cm</Height>
+            <Width>18.84281cm</Width>
+            <ZIndex>6</ZIndex>
             <Visibility>
               <Hidden>= iif(Len(Fields!fec_baja.Value) = 0,true,false)</Hidden>
             </Visibility>
@@ -1894,29 +1912,11 @@
               <PaddingBottom>2pt</PaddingBottom>
             </Style>
           </Textbox>
-          <Subreport Name="FirmasOP">
-            <ReportName>FirmasOP</ReportName>
-            <Parameters>
-              <Parameter Name="nro_orden">
-                <Value>=Parameters!nro_op.Value</Value>
-              </Parameter>
-            </Parameters>
-            <Top>18.34215cm</Top>
-            <Left>0.02994cm</Left>
-            <Height>0.2975cm</Height>
-            <Width>18.84281cm</Width>
-            <ZIndex>6</ZIndex>
-            <Style>
-              <Border>
-                <Style>None</Style>
-              </Border>
-            </Style>
-          </Subreport>
         </ReportItems>
-        <Height>7.35928in</Height>
+        <Height>7.01553in</Height>
         <Style />
       </Body>
-      <Width>7.43022in</Width>
+      <Width>7.46681in</Width>
       <Page>
         <PageHeader>
           <Height>3.31294cm</Height>
@@ -1927,7 +1927,7 @@
               <Source>Embedded</Source>
               <Value>menu_fondo_logo_gmx_2</Value>
               <Sizing>FitProportional</Sizing>
-              <Left>0.03142in</Left>
+              <Left>0.03272in</Left>
               <Height>1.06125in</Height>
               <Width>1.54167in</Width>
               <ToolTip>GMX Seguros</ToolTip>
@@ -1957,7 +1957,7 @@
               </Paragraphs>
               <rd:DefaultName>Textbox1</rd:DefaultName>
               <Top>0.74524cm</Top>
-              <Left>5.42615cm</Left>
+              <Left>5.42945cm</Left>
               <Height>0.77294cm</Height>
               <Width>5.60035cm</Width>
               <ZIndex>1</ZIndex>
@@ -2109,7 +2109,7 @@
               </ReportItems>
               <KeepTogether>true</KeepTogether>
               <Top>0.43792cm</Top>
-              <Left>12.84979cm</Left>
+              <Left>12.85309cm</Left>
               <Height>1.79599cm</Height>
               <Width>6.02296cm</Width>
               <ZIndex>2</ZIndex>
@@ -2139,7 +2139,7 @@
               </Paragraphs>
               <rd:DefaultName>Textbox4</rd:DefaultName>
               <Top>2.69558cm</Top>
-              <Left>1.37373cm</Left>
+              <Left>1.37703cm</Left>
               <Height>0.39687cm</Height>
               <Width>1.35255cm</Width>
               <ZIndex>3</ZIndex>
@@ -2161,7 +2161,7 @@
           </Style>
         </PageHeader>
         <PageFooter>
-          <Height>0.66441cm</Height>
+          <Height>0.58503cm</Height>
           <PrintOnFirstPage>true</PrintOnFirstPage>
           <PrintOnLastPage>true</PrintOnLastPage>
           <ReportItems>
@@ -2186,7 +2186,7 @@
               </Paragraphs>
               <rd:DefaultName>SucEmision</rd:DefaultName>
               <Top>0.01149cm</Top>
-              <Left>0.03324cm</Left>
+              <Left>0.03654cm</Left>
               <Height>0.57354cm</Height>
               <Width>16.74569cm</Width>
               <Style>
@@ -2218,7 +2218,7 @@
               </Paragraphs>
               <rd:DefaultName>SucEmision</rd:DefaultName>
               <Top>0.01149cm</Top>
-              <Left>8.19192cm</Left>
+              <Left>8.19522cm</Left>
               <Height>0.57354cm</Height>
               <Width>1.45353cm</Width>
               <ZIndex>1</ZIndex>
@@ -2251,7 +2251,7 @@
               </Paragraphs>
               <rd:DefaultName>SucEmision</rd:DefaultName>
               <Top>0.01149cm</Top>
-              <Left>16.92005cm</Left>
+              <Left>16.92335cm</Left>
               <Height>0.57354cm</Height>
               <Width>1.9527cm</Width>
               <ZIndex>2</ZIndex>
@@ -2280,7 +2280,7 @@
         <LeftMargin>1cm</LeftMargin>
         <RightMargin>1cm</RightMargin>
         <TopMargin>1cm</TopMargin>
-        <BottomMargin>1cm</BottomMargin>
+        <BottomMargin>0.5cm</BottomMargin>
         <ColumnSpacing>0.13cm</ColumnSpacing>
         <Style />
       </Page>
