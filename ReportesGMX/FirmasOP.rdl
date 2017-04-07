@@ -528,6 +528,9 @@
                 <Height>0.41479cm</Height>
                 <Width>2.5cm</Width>
                 <ZIndex>17</ZIndex>
+                <Visibility>
+                  <Hidden>=iif(First(Fields!Cadena_Digital.Value, "DataSet2") = "",True,False)</Hidden>
+                </Visibility>
                 <Style>
                   <Border>
                     <Style>None</Style>
