@@ -74,6 +74,10 @@
           <DataField>ContaPathFirma</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
+        <Field Name="Cadena_Digital">
+          <DataField>Cadena_Digital</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
       </Fields>
     </DataSet>
   </DataSets>
@@ -500,9 +504,77 @@
                   <PaddingBottom>2pt</PaddingBottom>
                 </Style>
               </Textbox>
+              <Textbox Name="Textbox5">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>Cadena Digital:</Value>
+                        <Style>
+                          <FontFamily>Arial</FontFamily>
+                          <FontSize>6pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style />
+                  </Paragraph>
+                </Paragraphs>
+                <rd:DefaultName>Textbox5</rd:DefaultName>
+                <Top>4.87816cm</Top>
+                <Left>0.26458cm</Left>
+                <Height>0.41479cm</Height>
+                <Width>2.5cm</Width>
+                <ZIndex>17</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
+              <Textbox Name="CadenaDigital">
+                <CanGrow>true</CanGrow>
+                <KeepTogether>true</KeepTogether>
+                <Paragraphs>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>=First(Fields!Cadena_Digital.Value, "DataSet2")</Value>
+                        <Style>
+                          <FontFamily>Arial</FontFamily>
+                          <FontSize>6pt</FontSize>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
+                </Paragraphs>
+                <Top>5.30104cm</Top>
+                <Left>0.26458cm</Left>
+                <Height>0.41479cm</Height>
+                <Width>18.30299cm</Width>
+                <ZIndex>18</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+              </Textbox>
             </ReportItems>
             <KeepTogether>true</KeepTogether>
-            <Height>4.8076cm</Height>
+            <Height>5.71583cm</Height>
             <Width>18.83951cm</Width>
             <Style>
               <Border>
@@ -512,7 +584,7 @@
             </Style>
           </Rectangle>
         </ReportItems>
-        <Height>1.89616in</Height>
+        <Height>2.25033in</Height>
         <Style>
           <Border>
             <Style>Solid</Style>
