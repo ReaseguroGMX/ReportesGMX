@@ -10,7 +10,7 @@
     </DataSource>
   </DataSources>
   <DataSets>
-    <DataSet Name="DataSet1">
+    <DataSet Name="DetalleCuentaCorriente">
       <Query>
         <DataSourceName>GMX_D1</DataSourceName>
         <QueryParameters>
@@ -58,36 +58,40 @@
         <CommandText>spR_DetCuentaCorriente</CommandText>
       </Query>
       <Fields>
+        <Field Name="CONSECUTIVO">
+          <DataField>CONSECUTIVO</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
         <Field Name="CODIGO_CPTO">
-          <DataField>CODIGO CPTO</DataField>
+          <DataField>CODIGO_CPTO</DataField>
           <rd:TypeName>System.Decimal</rd:TypeName>
         </Field>
         <Field Name="CONCEPTO">
           <DataField>CONCEPTO</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
+        <Field Name="DESCRIPCION_MOVIMIENTO">
+          <DataField>DESCRIPCION_MOVIMIENTO</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
         <Field Name="Poliza">
           <DataField>POLIZA</DataField>
           <rd:TypeName>System.Decimal</rd:TypeName>
         </Field>
-        <Field Name="DESCRIPCION_MOVIMIENTO">
-          <DataField>DESCRIPCION MOVIMIENTO</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
         <Field Name="TIPO_MOVIMIENTO">
-          <DataField>TIPO MOVIMIENTO</DataField>
+          <DataField>TIPO_MOVIMIENTO</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
-        <Field Name="CLAVE_COMPAÑIA_REAS_">
-          <DataField>CLAVE COMPAÑIA REAS.</DataField>
+        <Field Name="CLAVE_COMPAÑIA_REAS">
+          <DataField>CLAVE_COMPAÑIA_REAS</DataField>
           <rd:TypeName>System.Decimal</rd:TypeName>
         </Field>
-        <Field Name="COMPAÑIA_REAS_">
-          <DataField>COMPAÑIA REAS.</DataField>
+        <Field Name="COMPAÑIA_REAS">
+          <DataField>COMPAÑIA_REAS</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
         <Field Name="CODIFO_CNSF_REAS">
-          <DataField>CODIFO CNSF REAS</DataField>
+          <DataField>CODIFO_CNSF_REAS</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
         <Field Name="CORREDOR">
@@ -95,11 +99,11 @@
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
         <Field Name="CODIFO_CNSF_BROKER">
-          <DataField>CODIFO CNSF BROKER</DataField>
+          <DataField>CODIFO_CNSF_BROKER</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
         <Field Name="RAMO_CONTABLE">
-          <DataField>RAMO CONTABLE</DataField>
+          <DataField>RAMO_CONTABLE</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
         <Field Name="Contrato">
@@ -107,19 +111,19 @@
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
         <Field Name="DESC_CONTRATO">
-          <DataField>DESC CONTRATO</DataField>
+          <DataField>DESC_CONTRATO</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
         <Field Name="AÑO_CONTRATO">
-          <DataField>AÑO CONTRATO</DataField>
+          <DataField>AÑO_CONTRATO</DataField>
           <rd:TypeName>System.Int32</rd:TypeName>
         </Field>
         <Field Name="TIPO_CONTRATO">
-          <DataField>TIPO CONTRATO</DataField>
+          <DataField>TIPO_CONTRATO</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
-        <Field Name="RAMO_POL_">
-          <DataField>RAMO POL.</DataField>
+        <Field Name="RAMO_POL">
+          <DataField>RAMO_POL</DataField>
           <rd:TypeName>System.Int32</rd:TypeName>
         </Field>
         <Field Name="SUFIJO">
@@ -127,31 +131,31 @@
           <rd:TypeName>System.Int32</rd:TypeName>
         </Field>
         <Field Name="NRO_ENDOSO">
-          <DataField>NRO.ENDOSO</DataField>
+          <DataField>NRO_ENDOSO</DataField>
           <rd:TypeName>System.Decimal</rd:TypeName>
         </Field>
-        <Field Name="NRO__SINIESTRO">
-          <DataField>NRO. SINIESTRO</DataField>
+        <Field Name="NRO_SINIESTRO">
+          <DataField>NRO_SINIESTRO</DataField>
           <rd:TypeName>System.Int32</rd:TypeName>
         </Field>
         <Field Name="TIPO_OPERACION">
-          <DataField>TIPO OPERACION</DataField>
+          <DataField>TIPO_OPERACION</DataField>
           <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="NRO__O_P_">
-          <DataField>NRO. O.P.</DataField>
-          <rd:TypeName>System.Int32</rd:TypeName>
         </Field>
         <Field Name="Moneda">
           <DataField>MONEDA</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
+        <Field Name="NRO_OP">
+          <DataField>NRO_OP</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
         <Field Name="RECIBO_PAGO">
-          <DataField>RECIBO PAGO</DataField>
+          <DataField>RECIBO_PAGO</DataField>
           <rd:TypeName>System.Decimal</rd:TypeName>
         </Field>
         <Field Name="FECHA_MOV">
-          <DataField>FECHA MOV</DataField>
+          <DataField>FECHA_MOV</DataField>
           <rd:TypeName>System.DateTime</rd:TypeName>
         </Field>
         <Field Name="PARTIC_REASEGURADOR">
@@ -1520,26 +1524,8 @@
                         <TablixMember>
                           <Group Name="CuentaCorriente">
                             <GroupExpressions>
-                              <GroupExpression>=Fields!CODIGO_CPTO.Value</GroupExpression>
-                              <GroupExpression>=Fields!CONCEPTO.Value</GroupExpression>
-                              <GroupExpression>=Fields!Poliza.Value</GroupExpression>
-                              <GroupExpression>=Fields!DESCRIPCION_MOVIMIENTO.Value</GroupExpression>
-                              <GroupExpression>=Fields!TIPO_MOVIMIENTO.Value</GroupExpression>
-                              <GroupExpression>=Fields!CLAVE_COMPAÑIA_REAS_.Value</GroupExpression>
-                              <GroupExpression>=Fields!CORREDOR.Value</GroupExpression>
-                              <GroupExpression>=Fields!RAMO_CONTABLE.Value</GroupExpression>
-                              <GroupExpression>=Fields!Contrato.Value</GroupExpression>
-                              <GroupExpression>=Fields!AÑO_CONTRATO.Value</GroupExpression>
-                              <GroupExpression>=Fields!TIPO_CONTRATO.Value</GroupExpression>
-                              <GroupExpression>=Fields!RAMO_POL_.Value</GroupExpression>
-                              <GroupExpression>=Fields!SUFIJO.Value</GroupExpression>
-                              <GroupExpression>=Fields!NRO_ENDOSO.Value</GroupExpression>
-                              <GroupExpression>=Fields!NRO__SINIESTRO.Value</GroupExpression>
-                              <GroupExpression>=Fields!NRO__O_P_.Value</GroupExpression>
                               <GroupExpression>=Fields!Moneda.Value</GroupExpression>
-                              <GroupExpression>=Fields!RECIBO_PAGO.Value</GroupExpression>
-                              <GroupExpression>=Fields!FECHA_MOV.Value</GroupExpression>
-                              <GroupExpression>=Fields!PARTIC_REASEGURADOR.Value</GroupExpression>
+                              <GroupExpression>=Fields!CONSECUTIVO.Value</GroupExpression>
                             </GroupExpressions>
                           </Group>
                           <SortExpressions>
@@ -1707,7 +1693,7 @@
                                                       <Paragraph>
                                                         <TextRuns>
                                                           <TextRun>
-                                                            <Value>=Fields!CLAVE_COMPAÑIA_REAS_.Value</Value>
+                                                            <Value>=Fields!CLAVE_COMPAÑIA_REAS.Value</Value>
                                                             <Style>
                                                               <FontSize>9pt</FontSize>
                                                             </Style>
@@ -1744,7 +1730,7 @@
                                                           <Paragraph>
                                                             <TextRuns>
                                                               <TextRun>
-                                                                <Value>=Fields!COMPAÑIA_REAS_.Value</Value>
+                                                                <Value>=Fields!COMPAÑIA_REAS.Value</Value>
                                                                 <Style>
                                                                   <FontSize>9pt</FontSize>
                                                                 </Style>
@@ -2080,7 +2066,7 @@
                                                                                               <Paragraph>
                                                                                                 <TextRuns>
                                                                                                   <TextRun>
-                                                                                                    <Value>=Fields!RAMO_POL_.Value</Value>
+                                                                                                    <Value>=Fields!RAMO_POL.Value</Value>
                                                                                                     <Style>
                                                                                                       <FontSize>9pt</FontSize>
                                                                                                     </Style>
@@ -2263,7 +2249,7 @@
                                                                                                                   <Paragraph>
                                                                                                                     <TextRuns>
                                                                                                                       <TextRun>
-                                                                                                                        <Value>=Fields!NRO__SINIESTRO.Value</Value>
+                                                                                                                        <Value>=Fields!NRO_SINIESTRO.Value</Value>
                                                                                                                         <Style>
                                                                                                                           <FontSize>9pt</FontSize>
                                                                                                                         </Style>
@@ -2337,7 +2323,7 @@
                                                                                                                           <Paragraph>
                                                                                                                             <TextRuns>
                                                                                                                               <TextRun>
-                                                                                                                                <Value>=Fields!NRO__O_P_.Value</Value>
+                                                                                                                                <Value>=Fields!NRO_OP.Value</Value>
                                                                                                                                 <Style>
                                                                                                                                   <FontSize>9pt</FontSize>
                                                                                                                                 </Style>
@@ -2352,7 +2338,7 @@
                                                                                                                         <ActionInfo>
                                                                                                                           <Actions>
                                                                                                                             <Action>
-                                                                                                                              <Hyperlink>="http://siigmxapp02/ReportServer_SIIGMX02?%2fReportesGMX_DESA%2fOrdenPago&amp;rs%3AFormat=PDF&amp;rc:Parameters=false&amp;nro_op=" &amp; Fields!NRO__O_P_.Value</Hyperlink>
+                                                                                                                              <Hyperlink>="http://siigmxapp02/ReportServer_SIIGMX02?%2fReportesGMX%2fOrdenPago&amp;rs%3AFormat=PDF&amp;rc:Parameters=false&amp;nro_op=" &amp; Fields!NRO_OP.Value</Hyperlink>
                                                                                                                             </Action>
                                                                                                                           </Actions>
                                                                                                                         </ActionInfo>
@@ -2367,6 +2353,7 @@
                                                                                                                           <PaddingBottom>2pt</PaddingBottom>
                                                                                                                         </Style>
                                                                                                                       </Textbox>
+                                                                                                                      <rd:Selected>true</rd:Selected>
                                                                                                                     </CellContents>
                                                                                                                   </TablixHeader>
                                                                                                                   <TablixMembers>
@@ -3545,7 +3532,7 @@
             </TablixRowHierarchy>
             <RepeatColumnHeaders>true</RepeatColumnHeaders>
             <KeepTogether>true</KeepTogether>
-            <DataSetName>DataSet1</DataSetName>
+            <DataSetName>DetalleCuentaCorriente</DataSetName>
             <Height>2.01167cm</Height>
             <Width>190.12713cm</Width>
             <Style>
